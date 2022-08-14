@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from "./components/Header";
+import Dashboard from "./components/Dashboard";
+import NewPoll from "./components/NewPoll";
+import PollPage from "./components/PollPage";
+import Footer from "./components/Footer";
+import {Route, Routes} from "react-router-dom";
+import {connect} from "react-redux";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+        <Header/>
+        <div className="container">
+        <Routes>
+            <Route path="/" exact element={<Dashboard />} />
+            <Route path="/questions/:id" element={<PollPage />} />
+            <Route path="/new" exact element={<NewPoll />} />
+        </Routes>
+        <Footer />
     </div>
+    </>
   );
 }
 
-export default App;
+const mapStateToProps = ({}) => ({});
+
+export default connect(mapStateToProps)(App);

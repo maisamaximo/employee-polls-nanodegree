@@ -1,9 +1,9 @@
 let users = {
-  sarahedo: {
-    id: 'sarahedo',
+  kubowania: {
+    id: 'kubowania',
     password:'password123',
-    name: 'Sarah Edo',
-    avatarURL: null,
+    name: 'Ania Kubow',
+    avatarURL: 'https://avatars.githubusercontent.com/u/51362610?v=4',
     answers: {
       "8xf0y6ziyjabvozdd253nd": 'optionOne',
       "6ni6ok3ym7mf1p33lnez": 'optionOne',
@@ -12,22 +12,22 @@ let users = {
     },
     questions: ['8xf0y6ziyjabvozdd253nd', 'am8ehyc8byjqgar0jgpub9']
   },
-  tylermcginnis: {
-    id: 'tylermcginnis',
+  diego3g: {
+    id: 'diego3g',
     password:'abc321',
-    name: 'Tyler McGinnis',
-    avatarURL: null,
+    name: 'Diego Fernandes',
+    avatarURL: 'https://avatars.githubusercontent.com/u/2254731?v=4',
     answers: {
       "vthrdm985a262al8qx3do": 'optionOne',
       "xj352vofupe1dqz9emx13r": 'optionTwo',
     },
     questions: ['loxhs1bqm25b708cmbf3g', 'vthrdm985a262al8qx3do'],
   },
-  mtsamis: {
-    id: 'mtsamis',
+  LucasE2996: {
+    id: 'LucasE2996',
     password:'xyz123',
-    name: 'Mike Tsamis',
-    avatarURL: null,
+    name: 'Lucas Rosa',
+    avatarURL: 'https://avatars.githubusercontent.com/u/14108224?v=4',
     answers: {
       "xj352vofupe1dqz9emx13r": 'optionOne',
       "vthrdm985a262al8qx3do": 'optionTwo',
@@ -35,13 +35,23 @@ let users = {
     },
     questions: ['6ni6ok3ym7mf1p33lnez', 'xj352vofupe1dqz9emx13r'],
   },
-  zoshikanlu: {
-    id: 'zoshikanlu',
+  jonatasferreira7: {
+    id: 'jonatasferreira7',
     password:'pass246',
-    name: 'Zenobia Oshikanlu',
-    avatarURL: null,
+    name: 'Jonatas Ferreira',
+    avatarURL: 'https://avatars.githubusercontent.com/u/56143135?v=4',
     answers: {
       "xj352vofupe1dqz9emx13r": 'optionOne',
+    },
+    questions: [],
+  },
+  maisamaximo: {
+    id: 'maisamaximo',
+    password:'pass2022',
+    name: 'Maisa Maximo',
+    avatarURL: 'https://avatars.githubusercontent.com/u/16991001?v=4',
+    answers: {
+      "xj463vofupe2dqz0emx24r": 'optionOne',
     },
     questions: [],
   }
@@ -50,10 +60,10 @@ let users = {
 let questions = {
   "8xf0y6ziyjabvozdd253nd": {
     id: '8xf0y6ziyjabvozdd253nd',
-    author: 'sarahedo',
+    author: 'kubowania',
     timestamp: 1467166872634,
     optionOne: {
-      votes: ['sarahedo'],
+      votes: ['kubowania'],
       text: 'Build our new application with Javascript',
     },
     optionTwo: {
@@ -63,66 +73,66 @@ let questions = {
   },
   "6ni6ok3ym7mf1p33lnez": {
     id: '6ni6ok3ym7mf1p33lnez',
-    author: 'mtsamis',
+    author: 'LucasE2996',
     timestamp: 1468479767190,
     optionOne: {
       votes: [],
       text: 'hire more frontend developers',
     },
     optionTwo: {
-      votes: ['mtsamis', 'sarahedo'],
+      votes: ['LucasE2996', 'kubowania', 'maisamaximo'],
       text: 'hire more backend developers'
     }
   },
   "am8ehyc8byjqgar0jgpub9": {
     id: 'am8ehyc8byjqgar0jgpub9',
-    author: 'sarahedo',
+    author: 'kubowania',
     timestamp: 1488579767190,
     optionOne: {
       votes: [],
       text: 'conduct a release retrospective 1 week after a release',
     },
     optionTwo: {
-      votes: ['sarahedo'],
+      votes: ['kubowania'],
       text: 'conduct release retrospectives quarterly'
     }
   },
   "loxhs1bqm25b708cmbf3g": {
     id: 'loxhs1bqm25b708cmbf3g',
-    author: 'tylermcginnis',
+    author: 'diego3g',
     timestamp: 1482579767190,
     optionOne: {
       votes: [],
       text: 'have code reviews conducted by peers',
     },
     optionTwo: {
-      votes: ['sarahedo'],
+      votes: ['kubowania'],
       text: 'have code reviews conducted by managers'
     }
   },
   "vthrdm985a262al8qx3do": {
     id: 'vthrdm985a262al8qx3do',
-    author: 'tylermcginnis',
+    author: 'diego3g',
     timestamp: 1489579767190,
     optionOne: {
-      votes: ['tylermcginnis'],
+      votes: ['diego3g'],
       text: 'take a course on ReactJS',
     },
     optionTwo: {
-      votes: ['mtsamis'],
+      votes: ['LucasE2996', 'maisamaximo'],
       text: 'take a course on unit testing with Jest'
     }
   },
   "xj352vofupe1dqz9emx13r": {
     id: 'xj352vofupe1dqz9emx13r',
-    author: 'mtsamis',
+    author: 'LucasE2996',
     timestamp: 1493579767190,
     optionOne: {
-      votes: ['mtsamis', 'zoshikanlu'],
+      votes: ['LucasE2996', 'jonatasferreira7'],
       text: 'deploy to production once every two weeks',
     },
     optionTwo: {
-      votes: ['tylermcginnis'],
+      votes: ['diego3g'],
       text: 'deploy to production once every month'
     }
   },
