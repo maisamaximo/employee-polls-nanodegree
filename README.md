@@ -11,10 +11,11 @@
 
 More detailed and described description...
 
-### ✨ [Demo](https://maisamaximo.github.io/maisamaximo-cv/)
+### ✨ Demo
 
-<img width="1080" alt="Screenshot 2022-07-23 at 00 29 26" src="https://user-images.githubusercontent.com/16991001/184511804-8f9a893d-8b75-4f71-a9b8-b646a49892a5.png">
-
+<p align="center">
+  <img width="800" src="https://user-images.githubusercontent.com/16991001/185799335-2513efc6-6410-42eb-9406-df87963a67f0.gif" />
+<p>
 
 ### Installation
 
@@ -27,6 +28,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
+<details>
+<summary>References</summary>
+
+* Video used as base to create the layout of page 404 - https://www.youtube.com/watch?v=m7ZZNsa0pOA
+* Link to the base projects provided by udacity that I used - https://github.com/reduxjs/redux/tree/master/examples
+</details>
 
 
 <hr>
