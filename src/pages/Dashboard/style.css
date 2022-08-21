@@ -1,0 +1,9 @@
+li {
+    list-style: none;
+}
+
+.dashboard ul {
+    display: grid;
+    grid-template-columns: repeat(5, 3fr);
+    gap: 2rem;
+}

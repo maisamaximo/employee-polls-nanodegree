@@ -1,0 +1,11 @@
+.new-poll Button {
+    background: #B64DAC;
+    border: 1px solid #B64DAC;
+    transition: 0.5s;
+    width: 200px;
+}
+
+.new-poll Button:hover {
+    background: #85197b;
+    border: 1px solid #B64DAC;
+}

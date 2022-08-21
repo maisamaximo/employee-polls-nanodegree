@@ -1,0 +1,33 @@
+.dashboard-card {
+    box-shadow: rgb(0 0 0 / 15%) 0px 2px 8px;
+    width: 200px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card-avatar {
+    width: 10rem;
+    display: flex;
+    margin: auto;
+}
+
+.dashboard-card a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.dashboard-card .username{
+    font-size: 12px;
+    color: #a6a4a4!important;
+}
+
+.dashboard-card .card-button {
+    color: #B64DAC;
+    border: 1px solid #B64DAC;
+}
+
+.dashboard-card .card-button:hover {
+    background: #B64DAC;
+    border: 1px solid #B64DAC;
+}

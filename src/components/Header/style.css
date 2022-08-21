@@ -1,0 +1,9 @@
+span .username {
+    color: #fff;
+}
+
+.avatar {
+    height: 30px;
+    width: 30px;
+    margin-inline: 0.5rem;
+}
